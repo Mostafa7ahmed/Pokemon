@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #eff3ff;
+}
+
+.container {
+  width: 350px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+}
+
+#card {
+  width: 100%;
+  padding: 30px 20px;
+  background: radial-gradient(circle at 50% 0%, orange 40%, #ffffff 32%);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  position: relative;
+
+}
+
+#card img {
+  display: block;
+  max-height: 200px;
+  position: relative;
+  margin: 20px auto;
+  width: 200px;
+}
+
+.hp {
+  width: 80px;
+  background-color: #ffffff;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: auto;
+  font-weight: 500;
+}
+
+.NamePoke {
+  text-align: center;
+  font-weight: 6000;
+}
+
+.type {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 40px 0;
+}
+
+.type span {
+  padding: 5px 20px;
+  background: orange;
+  border-radius: 10px;
+  color: #ffffff;
+
+  font-weight: 400;
+}
+
+.hp span {
+  margin-right: 10px;
+}
+
+.hp span,
+.type span,
+.states span {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+
+}
+
+.states {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.states p {
+  color: #404060;
+}
+
+#btn {
+  display: block;
+  padding: 15px 60px;
+  position: relative;
+  border: none;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: #101010;
+  color: #eff3ff;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+#btn:focus {
+  margin: 35px auto;
+
+}
